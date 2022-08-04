@@ -12,10 +12,8 @@ int main(){
     sum += 2*i-1;
   }
   printf("\n The sum of off natural number upto %d terms : %d \n",n,sum);
-  
 
 }
-
 
 //test
 
