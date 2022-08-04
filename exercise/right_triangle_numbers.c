@@ -1,4 +1,4 @@
-// 11) Write a program in C to make such a pattern like right angle triangle with a number which will repeat a number in a row. 
+// 10) Write a program in C to display the pattern like right angle triangle with a number. 
 
 # include<stdio.h>
 # include<math.h>
