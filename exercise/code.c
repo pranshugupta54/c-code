@@ -14,12 +14,3 @@ int main(){
   printf("\n The sum of off natural number upto %d terms : %d \n",n,sum);
 
 }
-
-//test
-
-
-//test2
-
-
-//test 3
-//test 4
