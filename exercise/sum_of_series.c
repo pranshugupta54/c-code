@@ -20,7 +20,7 @@ int main(){
   {
     float pow_of_x = (float)pow(x, 2 * i);
     float sum_value = pow_of_x/factorial(2*i);
-    sum = sum + (pow(-1,i)) * sum_value;//(float)(pow (x,2 * i) / factorial(2*i));  
+    sum = sum + (pow(-1,i)) * sum_value;
     printf("sum%d:%f \n",i,sum);
   
   }
