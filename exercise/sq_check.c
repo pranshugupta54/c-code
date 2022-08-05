@@ -15,7 +15,8 @@ int main(){
   
   if (sq_check(n) == 1)
   {
-    printf("%d is a perfect Square.\n",n);
+    int k = pow(n,0.5);
+    printf("%d is a perfect Square of %d.\n",n,k);
   }
   else if (sq_check(n) == 0)
   {
