@@ -7,38 +7,29 @@ If sum of divisors == number then perfect number.
 # include<stdio.h>
 # include<math.h>
 
-int sq_check(int n);
 int main(){
-  int n, sum =0;
+  int n, sum = 1;
   printf("Enter number:");
   scanf("%d",&n);
   
-  if (sq_check(n) == 1)
+  printf("Divisors -> 1");
+  for (int i = 2; i < n; i++)
   {
-    printf("%d is a perfect Square.\n",n);
-  }
-  else if (sq_check(n) == 0)
-  {
-    printf("%d is NOT a perfect square. \n",n);
-  }
-  else printf("Error");
-  
-  
-}
-
-int sq_check(int n){
-
-  for (int i = 0; i <= n; i++)
-  {
-    int sq_num = i * i;
-    if (sq_num == n)
+    if (n % i == 0)
     {
-      return 1;
-      break;
+      printf(",%d",i);
+      sum+= i;
     }
+    
   }
-  return 0;
-
+  printf(",%d.",n);
+  if (sum == n)
+  {
+    printf("\n%d is a Perfect Number.\n",n);
+  }
+  else printf("\n%d is NOT a perfect number.\n",n);
+  
+  
 }
 
 
