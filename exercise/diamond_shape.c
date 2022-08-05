@@ -36,7 +36,7 @@ int main(){
     }
     printf("\n");    
   }
-for (int i = row-1; i >= 1 ; i--)
+  for (int i = row-1; i >= 1 ; i--)
   {
     for (int k = 1; k <= row-i; k++)
     {
