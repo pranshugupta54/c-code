@@ -7,6 +7,8 @@ Example: Number of letters = 4;
   A B C D C B A 
 */
 
+image.png
+
 # include<stdio.h>
 
 int main(){
