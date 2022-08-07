@@ -2,22 +2,10 @@
 # include<math.h>
 #include <stdlib.h>
 #include <time.h>
+#include "exercise/functions/factorial.c"
 
 int main(){
-  srand(time(NULL));
-  printf("%d\n",rand()%6);
-  printf("%d\n",rand()%6);
-  printf("%d\n",rand()%6);
-  printf("%d\n",rand()%6);
-  printf("%d\n",rand()%6);
+  printf("Factorial is %d", factorial(5));
   
 
 }
-
-//test
-
-
-//test2
-
-
-//test 3
