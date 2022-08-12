@@ -1,11 +1,19 @@
 # include<stdio.h>
-# include<math.h>
-#include <stdlib.h>
-#include <time.h>
-#include "exercise/functions/factorial.c"
+
+void table(int arr[][10]);
 
 int main(){
-  printf("Factorial is %d", factorial(5));
-  
 
+  int arr[1][10];
+  table(arr);
+
+}
+
+void table(int arr[][10]){
+  for (int i = 1; i <= 10; i++)
+  {
+    arr[1][i] = 2 * i;
+    printf("%d\n", arr[1][i]);
+  }
+  
 }
