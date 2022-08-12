@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style/style2.css">
+</head>
+<body>
+    <form action="">
+    <header> <h1>Payment Form </h1> </header>
+    <section>
+      <fieldset>
+        <legend> <h2>Contact Details </h2> </legend>
+        <p>Name: *<input type="text" name="name" required></p>
+        <p>Phone Number: *<input type="number" name="ph_number" id="ph_number" required></p>
+            <fieldset>
+                <legend>Gender *</legend>
+                <input type="radio" name="gender" id="Male" required> Male <br>
+                <input class="female" type="radio" name="gender" id="Female" required> Female <br>
+                <input class="others" type="radio" name="gender" id="Others" required> Others
+
+                </ul>
+            </fieldset>
+        <p>Address: <textarea name="Address" id="Address" cols="50" rows="5"></textarea></p>
+        <p>Email: *<input type="email" name="email" id="email" required></p>
+        <p>Pincode: *<input type="number" name="pincode" id="pincode" required></p>
+        <hr>
+      </fieldset>
+    </section>
+    <section>
+    <fieldset>
+        <legend> <h2>Payment Info</h2> </legend>
+        <p> Card Type: *
+            <select name="card_type" id="card_type" required>
+                <option value="">--Select a card--</option>
+                <option value="visa">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="Rupay">Rupay</option>
+            </select>
+        <p>Card Number: *<input type="number" name="card_number" id="card_number" required></p>
+        <p>Expiration Date: *<input type="date" name="exp_date" id="exp_date" required></p>
+        <p>CVV: *<input type="password" name="cvv" id="cvv" required></p>
+      </fieldset>
+    </section>
+
+        <p><input type="submit" value="Pay Now"></p>
+    </form>
+
+</body>
+</html>
