@@ -54,3 +54,14 @@ p{
     padding: 2%;
     font-size: 20px;
 }
+
+header{
+    background-color: pink;
+}
+
+nav {
+    position: sticky;
+    padding: 20px;
+    background-color: #241426;
+    text-decoration: none;
+}
