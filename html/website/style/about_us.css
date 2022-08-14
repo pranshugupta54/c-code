@@ -9,11 +9,15 @@
     height: 80%;    
 }
 
+body{
+    margin: 0px;
+}
 .box{
     width: 700px;
     height: 100px;
     text-align: center;
-    margin: 30px;
+    margin: 40px;
+    margin-top: 10px;
 }
 
 .box-set{
@@ -25,12 +29,13 @@
     background-color: rgb(193, 220, 243);
     font-size: medium;
     width: 800px;
-    margin: 5% auto;
+    margin: 100% auto;
     border-radius: 30px;
     height: 150px;
     padding: 1%;
-    margin-bottom: 0px !important; 
-    margin-top: 0px !important;
+    margin-bottom: 5px !important; 
+    margin-top: 5px !important;
+    box-shadow: 8px 5px 15px  #241426;
 }
 
 .two, .four{
@@ -41,8 +46,9 @@
     border-radius: 30px;
     height: 150px;
     padding: 1%;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 50px; /* To change space between boxes*/
+    margin-bottom: 50px; /* To change space between boxes*/
+    box-shadow: -8px 5px 15px  #241426;
 }
 
 img{
@@ -55,8 +61,13 @@ p{
     font-size: 20px;
 }
 
+
 header{
-    background-color: pink;
+    height: 200px;
+    background: #ff663c;
+    padding: 30px;
+    font-size: 3em;
+    text-align: center;
 }
 
 nav {
@@ -64,4 +75,29 @@ nav {
     padding: 20px;
     background-color: #241426;
     text-decoration: none;
+}
+
+nav a{
+    font-size: 1.5em;
+    padding: 20px;
+    text-decoration: none;
+    color: #ffd8ac;
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+}
+
+a:hover{
+    font-size: 1.7em;
+    color: #ff663c;
+}
+
+footer{
+    background-color: #241426;
+    color: white;
+    font-size: 1em;
+    padding: 20px;
+    text-align: center;
 }

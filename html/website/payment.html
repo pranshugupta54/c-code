@@ -5,16 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Form</title>
-    <link rel="stylesheet" href="style/style2.css">
+    <link rel="stylesheet" href="style/payment.css">
 
 </head>
 <body>
     <form action="">
     <header> <h1>Payment Form </h1> </header>
-    <br><hr>
+    <nav class="nav">
+        <a href="home.html">Home</a>
+        <a href="course.html">Courses</a>
+        <a href="about_us.html">About Us</a>
+        <a href="payment.html">Buy Now</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <br>
     <section>
       <fieldset>
         <legend> <h2>Contact Details </h2> </legend>
+        <p class="req">Required items are marked with asterisk (*)</p>
         <p>Name: *<input type="text" name="name" id="name" required></p>
         <p>Phone Number: *<input type="number" name="ph_number" id="ph_number" required></p>
             <fieldset class="gender_class">
@@ -49,6 +57,11 @@
       </fieldset>
     </section>
     </form>
+    <div class="footer">
+        <footer>
+            Copyright &copy; 2022 | Pranshu Gupta
+        </footer>
+    </div>
 
 </body>
 </html>
